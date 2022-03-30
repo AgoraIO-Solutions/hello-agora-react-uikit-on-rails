@@ -24,3 +24,4 @@ APP_ID=<your Agora app id, that does not require tokens>
 
 6) Navigate to http://localhost:3000
 
+# hello-agora-react-uikit-on-rails
