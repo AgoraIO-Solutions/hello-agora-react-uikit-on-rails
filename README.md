@@ -1,24 +1,26 @@
-# README
+# Hello Agora UIKit Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README documents, how to get a demo app up and running. The demo app is targeted at showing how Agora can be integrated into a rails 7 react app. The initial commit was created by running the following command.
 
-Things you may want to cover:
+```bash
+rails new <appname> -j=esbuild
+```
 
-* Ruby version
+### Up and Running:
 
-* System dependencies
+1) Create a `.env` file with the following content
 
-* Configuration
+```
+APP_ID=<your Agora app id, that does not require tokens>
+```
 
-* Database creation
+2) Excecute `bundle install` from the CLI
 
-* Database initialization
+3) Execute `npm i` from the CLI
 
-* How to run the test suite
+4) Ensure that `yarn` is installed
 
-* Services (job queues, cache servers, search engines, etc.)
+5) Run `./bin/dev` in order to run the app locally
 
-* Deployment instructions
+6) Navigate to http://localhost:3000
 
-* ...

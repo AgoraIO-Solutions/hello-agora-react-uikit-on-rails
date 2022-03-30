@@ -1,0 +1,4 @@
+import { define } from 'remount'
+import Videocall from "./components/Videocall"
+
+define({ 'videocall': Videocall })

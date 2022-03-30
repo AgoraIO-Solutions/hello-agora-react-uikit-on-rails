@@ -70,3 +70,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "meta-tags", "~> 2.16"
+
+gem "dotenv-rails", "~> 2.7"

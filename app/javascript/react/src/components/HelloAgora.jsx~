@@ -1,0 +1,15 @@
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
+import AgoraUIKit from 'agora-react-uikit'
+
+const Videocall = () => {
+    const rtcProps = { appId: '', channel: 'test' }
+  return <AgoraUIKit rtcProps={rtcProps} />
+}
+
+
+const Hello = () => {
+    return (<div><VideoCall/></div>)
+}
+
+export default Hello
